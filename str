@@ -1,0 +1,7 @@
+string='abcda'      
+string=list(string) 
+l=[]                
+for i in string:   
+    if i not in l:  
+        l.append(i)  
+print(len(l))      
